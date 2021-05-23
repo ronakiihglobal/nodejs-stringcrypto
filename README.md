@@ -10,7 +10,8 @@ The encrypt method used is `AES-256-CBC`.
 
 then 
 
-`const { encrypt, decrypt } = require('@ronak.iihglobal/stringcrypto')("str_of_len_32","str_of_len_16");` 
+`const { encrypt, decrypt } = 
+require('@ronak.iihglobal/stringcrypto')("str_of_len_32","str_of_len_16");` 
 
 Note args and constraints on key and IV length. Also keep both strings secret in .env.
 
