@@ -24,3 +24,11 @@ Once module imported and init method called with proper arguments, we can simply
 `let encrypted = encrypt("mystring")`
 
 `let decrypted = decrypt(encrypted)`
+
+In framework like expressJs we can simply declare it in app.js/index.js once global like below
+
+`global._encrypt = encrypt;`
+
+and reuse it in whole app like below 
+
+`let encrypted = _encrypt("mystring")`
