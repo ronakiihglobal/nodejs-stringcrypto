@@ -37,6 +37,4 @@ const init = (key, iv) => {
 
 }
 
-module.exports = {
-    init
-};
+module.exports = (key, iv) => init(key, iv);
