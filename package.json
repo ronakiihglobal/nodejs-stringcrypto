@@ -1,6 +1,6 @@
 {
   "name": "@ronak.iihglobal/stringcrypto",
-  "version": "1.0.18",
+  "version": "1.0.19",
   "description": "encrypt and decrypt id/text with ease",
   "main": "index.js",
   "scripts": {
@@ -10,7 +10,9 @@
     "encrypt",
     "decrypt",
     "string",
-    "encryption"
+    "encryption",
+    "nodejs",
+    "id"
   ],
   "author": "Ronak IIHGlobal",
   "license": "MIT",

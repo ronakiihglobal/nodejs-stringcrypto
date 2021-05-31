@@ -19,7 +19,7 @@ OR
 
 Just copy index.js file from github and put it in you project as it is simple one file module.
 
-Once module imported and init method called with proper arguments, we can simply use it like below,
+Once module imported and called with proper arguments, we can simply use it like below,
 
 `let encrypted = encrypt("mystring")`
 
